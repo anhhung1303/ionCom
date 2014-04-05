@@ -3,6 +3,6 @@
 
     <string name="app_name">Ion Com</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="well_come">Wellcome to IonCom App!</string>
 
 </resources>
