@@ -1,12 +1,12 @@
-package com.project.ioncom;
 
+package com.project.ioncom.ui;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.entity.scene.Scene;
 import org.andengine.ui.activity.BaseGameActivity;
-
 import android.os.Bundle;
 import android.renderscript.Font;
 import android.view.Menu;
+import com.project.ioncom.R;
 
 public class MainActivity extends BaseGameActivity {
 	
@@ -52,3 +52,5 @@ public class MainActivity extends BaseGameActivity {
 	}
 
 }
+
+

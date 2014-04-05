@@ -21,7 +21,13 @@ public final class R {
         public static int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static int ic_launcher=0x7f020000;
+        public static int background=0x7f020000;
+        public static int button_about=0x7f020001;
+        public static int button_exit=0x7f020002;
+        public static int button_instruction=0x7f020003;
+        public static int button_load_saved=0x7f020004;
+        public static int button_start=0x7f020005;
+        public static int ic_launcher=0x7f020006;
     }
     public static final class id {
         public static int action_settings=0x7f080000;
@@ -35,6 +41,7 @@ public final class R {
     public static final class string {
         public static int action_settings=0x7f050001;
         public static int app_name=0x7f050000;
+        public static int hello_world=0x7f050003;
         public static int well_come=0x7f050002;
     }
     public static final class style {
