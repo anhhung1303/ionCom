@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+	<ImageButton
+	    android:layout_width="304dp"
+	    android:layout_height="50dp"
+	    android:src="@drawable/button_start"
+	    android:onClick="sendMessage"
+	    android:layout_gravity="center"
+	    android:id="@+id/ibStart"
+	    android:layout_marginTop="25dp" />
+
+    <ImageButton
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:onClick="action1"
+        android:src="@drawable/button_load_saved"
+        android:layout_gravity="center"
+        android:id="@+id/ibStart" />
+    
+    <ImageButton
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:onClick="sendMessage"
+        android:src="@drawable/button_about"
+        android:layout_gravity="center"
+        android:id="@+id/ibStart" />
+
+    <ImageButton
+	    android:layout_width="304dp"
+	    android:layout_height="50dp"
+	    android:src="@drawable/button_exit"
+	    android:onClick="sendMessage"
+	    android:layout_gravity="center"
+	    android:id="@+id/ibStart" />
+    
+</LinearLayout>

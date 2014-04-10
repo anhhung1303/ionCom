@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="100"
+	    android:layout_marginTop="10dp">
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="LỚP 8"
+	        android:lines="3"
+	        android:layout_weight="50" />
+	
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="LỚP 9"
+	        android:lines="3"
+	        android:layout_weight="50" />
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="100">
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="LỚP 10"
+	        android:lines="3"
+	        android:layout_weight="50" />
+	
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="LỚP 11"
+	        android:lines="3"
+	        android:layout_weight="50" />
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:weightSum="100">
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="LỚP 12"
+	        android:lines="3"
+	        android:layout_weight="50" />
+	
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="LIKE"
+	        android:lines="3"
+	        android:layout_weight="50" />
+    </LinearLayout>
+</LinearLayout>
