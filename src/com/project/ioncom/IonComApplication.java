@@ -19,7 +19,7 @@ public class IonComApplication extends Application{
 		return getDatabaseManager().getReadableDatabase();
 	}
 	
-	public SQLiteDatabase getReaderDatabase(){
+	public SQLiteDatabase getWritableDatabase(){
 		return getDatabaseManager().getWritableDatabase();
 	}
 }
