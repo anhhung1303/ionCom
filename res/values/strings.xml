@@ -11,4 +11,15 @@
 	<string name="instruction">Hướng dẫn</string>
 	<string name="about">Giới thiệu</string>
 	<string name="exit">Thoát</string>
+	
+	
+	<string name="about_content">\tIon Com là một Android app dùng để mô phỏng các thí nghiệm Hóa học.
+		Các thành viên thực hiện bao gồm:\n
+			\t1. Võ Anh Hưng.\n
+			\t2. Đinh Trung Anh.\n
+			\t3. Ngô Minh Sơn.\n
+			\t4. Đặng Minh Dũng.\n
+		\tVới monng muốn mang lại cho học sinh những cái nhìn trực quan, chúng tôi đã cố gắng hoàn thiện sản phẩm nhưng
+		chắc chắn rằng sẽ cần nhiều hơn những góp ý từ người sử dụng để sản phẩm hiệu quả hơn.    
+	</string>
 </resources>

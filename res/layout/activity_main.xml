@@ -18,7 +18,7 @@
         <TextView
             android:id="@+id/newText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/padding_ver"
             android:layout_margin="@dimen/padding_small"
             android:background="@color/green"
             android:text="@string/new_experiment"
@@ -27,7 +27,7 @@
         <TextView
             android:id="@+id/listText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/padding_ver"
             android:layout_margin="@dimen/padding_small"
             android:background="@color/green"
             android:text="@string/list_experiment"
@@ -36,7 +36,7 @@
         <TextView
             android:id="@+id/instructionText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/padding_ver"
             android:layout_margin="@dimen/padding_small"
             android:background="@color/green"
             android:text="@string/instruction"
@@ -45,7 +45,7 @@
         <TextView
             android:id="@+id/aboutText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/padding_ver"
             android:layout_margin="@dimen/padding_small"
             android:background="@color/green"
             android:text="@string/about"
@@ -54,12 +54,12 @@
         <TextView
             android:id="@+id/exitText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/padding_ver"
             android:layout_margin="@dimen/padding_small"
             android:background="@color/green"
-            android:text="@string/exit"
             android:gravity="center"
-            android:onClick="exit"/>
+            android:onClick="exit"
+            android:text="@string/exit" />
        
     </LinearLayout>
 
