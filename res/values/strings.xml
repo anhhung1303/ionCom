@@ -3,9 +3,12 @@
 
     <string name="app_name">Ion Com</string>
     <string name="action_settings">Settings</string>
-    <string name="well_come">Wellcome to IonCom App!</string>
+    <string name="well_come">Chào mừng tới IonCom App!</string>
     
-    <string name="title_instruction">Instruction</string>
     <string name="phanUng">Chọn Phản Ứng</string>
-
+    <string name="new_experiment">Phản ứng mới</string>
+	<string name="list_experiment">Danh sách phản ứng</string>
+	<string name="instruction">Hướng dẫn</string>
+	<string name="about">Giới thiệu</string>
+	<string name="exit">Thoát</string>
 </resources>

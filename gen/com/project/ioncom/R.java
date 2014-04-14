@@ -11,12 +11,12 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static int black=0x7f040001;
-        public static int blue=0x7f040000;
-        public static int green=0x7f040004;
-        public static int purple=0x7f040005;
-        public static int red=0x7f040003;
-        public static int white=0x7f040002;
+        public static final int black=0x7f040001;
+        public static final int blue=0x7f040000;
+        public static final int green=0x7f040004;
+        public static final int purple=0x7f040005;
+        public static final int red=0x7f040003;
+        public static final int white=0x7f040002;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -25,53 +25,60 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static int activity_horizontal_margin=0x7f050000;
-        public static int activity_vertical_margin=0x7f050001;
-        public static int menu_col_width=0x7f050002;
-        public static int padding_large=0x7f050006;
-        public static int padding_normal=0x7f050005;
-        public static int padding_small=0x7f050004;
-        public static int padding_smallest=0x7f050003;
-        public static int padding_xlarge=0x7f050007;
-        public static int padding_xxlarge=0x7f050008;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int menu_col_width=0x7f050002;
+        public static final int padding_large=0x7f050006;
+        public static final int padding_normal=0x7f050005;
+        public static final int padding_small=0x7f050004;
+        public static final int padding_smallest=0x7f050003;
+        public static final int padding_xlarge=0x7f050007;
+        public static final int padding_xxlarge=0x7f050008;
     }
     public static final class drawable {
-        public static int background=0x7f020000;
-        public static int button_about=0x7f020001;
-        public static int button_exit=0x7f020002;
-        public static int button_instruction=0x7f020003;
-        public static int button_load_saved=0x7f020004;
-        public static int button_start=0x7f020005;
-        public static int ic_launcher=0x7f020006;
-        public static int small_back=0x7f020007;
+        public static final int background=0x7f020000;
+        public static final int button_about=0x7f020001;
+        public static final int button_exit=0x7f020002;
+        public static final int button_instruction=0x7f020003;
+        public static final int button_load_saved=0x7f020004;
+        public static final int button_start=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int small_back=0x7f020007;
     }
     public static final class id {
-        public static int action_settings=0x7f090007;
-        public static int button1=0x7f090000;
-        public static int button2=0x7f090001;
-        public static int ibStart=0x7f090002;
-        public static int spinner1=0x7f090003;
-        public static int spinner2=0x7f090005;
-        public static int spinner3=0x7f090004;
-        public static int spinner4=0x7f090006;
+        public static final int action_settings=0x7f090008;
+        public static final int button1=0x7f090001;
+        public static final int button2=0x7f090002;
+        public static final int exit=0x7f090000;
+        public static final int ibStart=0x7f090003;
+        public static final int spinner1=0x7f090004;
+        public static final int spinner2=0x7f090006;
+        public static final int spinner3=0x7f090005;
+        public static final int spinner4=0x7f090007;
     }
     public static final class layout {
-        public static int activity_main=0x7f030000;
-        public static int chon=0x7f030001;
-        public static int home=0x7f030002;
-        public static int layout_on_instruction=0x7f030003;
-        public static int phanung=0x7f030004;
-        public static int thinghiem=0x7f030005;
+        public static final int activity_main=0x7f030000;
+        public static final int chon=0x7f030001;
+        public static final int home=0x7f030002;
+        public static final int layout_on_about=0x7f030003;
+        public static final int layout_on_experiment=0x7f030004;
+        public static final int layout_on_instruction=0x7f030005;
+        public static final int phanung=0x7f030006;
+        public static final int thinghiem=0x7f030007;
     }
     public static final class menu {
-        public static int main=0x7f080000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static int action_settings=0x7f060001;
-        public static int app_name=0x7f060000;
-        public static int phanUng=0x7f060004;
-        public static int title_instruction=0x7f060003;
-        public static int well_come=0x7f060002;
+        public static final int about=0x7f060007;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int exit=0x7f060008;
+        public static final int instruction=0x7f060006;
+        public static final int list_experiment=0x7f060005;
+        public static final int new_experiment=0x7f060004;
+        public static final int phanUng=0x7f060003;
+        public static final int well_come=0x7f060002;
     }
     public static final class style {
         /** 
@@ -95,10 +102,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f070001;
     }
 }
