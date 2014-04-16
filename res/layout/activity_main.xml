@@ -15,51 +15,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/newText"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding_ver"
-            android:layout_margin="@dimen/padding_small"
-            android:background="@color/green"
-            android:text="@string/new_experiment"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/listText"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding_ver"
-            android:layout_margin="@dimen/padding_small"
-            android:background="@color/green"
-            android:text="@string/list_experiment"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/instructionText"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding_ver"
-            android:layout_margin="@dimen/padding_small"
-            android:background="@color/green"
-            android:text="@string/instruction"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/aboutText"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding_ver"
-            android:layout_margin="@dimen/padding_small"
-            android:background="@color/green"
-            android:text="@string/about"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/exitText"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding_ver"
-            android:layout_margin="@dimen/padding_small"
-            android:background="@color/green"
-            android:gravity="center"
-            android:onClick="exit"
-            android:text="@string/exit" />
+        <ListView
+            android:id="@+id/lvActions"
+             android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </ListView>
        
     </LinearLayout>
 
@@ -77,7 +38,9 @@
             android:gravity="center"
             android:layout_marginBottom="@dimen/padding_normal" />
 
-        <TextView
+        <FrameLayout
+            android:id="@+id/loContent"
+           
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/purple"

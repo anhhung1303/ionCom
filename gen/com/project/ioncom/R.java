@@ -47,19 +47,18 @@ public final class R {
         public static final int small_back=0x7f020007;
     }
     public static final class id {
-        public static final int aboutText=0x7f090003;
-        public static final int action_settings=0x7f09000c;
-        public static final int button1=0x7f090005;
-        public static final int button2=0x7f090006;
-        public static final int exitText=0x7f090004;
-        public static final int ibStart=0x7f090007;
-        public static final int instructionText=0x7f090002;
-        public static final int listText=0x7f090001;
-        public static final int newText=0x7f090000;
-        public static final int spinner1=0x7f090008;
-        public static final int spinner2=0x7f09000a;
-        public static final int spinner3=0x7f090009;
-        public static final int spinner4=0x7f09000b;
+        public static final int action_settings=0x7f09000b;
+        public static final int button1=0x7f090002;
+        public static final int button2=0x7f090003;
+        public static final int container3=0x7f090005;
+        public static final int ibStart=0x7f090004;
+        public static final int loContent=0x7f090001;
+        public static final int lvActions=0x7f090000;
+        public static final int spinner1=0x7f090007;
+        public static final int spinner2=0x7f090009;
+        public static final int spinner3=0x7f090008;
+        public static final int spinner4=0x7f09000a;
+        public static final int textmsg=0x7f090006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

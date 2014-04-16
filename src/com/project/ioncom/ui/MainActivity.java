@@ -1,73 +1,80 @@
 package com.project.ioncom.ui;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.ListFragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.project.ioncom.R;
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
 	// private Font mFont;
+	ArrayList<String> arrActions = new ArrayList<String>();
+	ListView lvActions;
+	ArrayAdapter<String> adapterAction;
+	DrawerLayout frameLayout;
 
+	// private ArrayList<ListFragment> arrFragments;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		// Handle new Experiment
-		TextView newText = (TextView) findViewById(R.id.newText);
-		newText.setOnTouchListener(new OnTouchListener() {
-			
+
+		initData();
+		lvActions.setOnItemClickListener(new OnItemClickListener() {
+
 			@Override
-			public boolean onTouch(View v, MotionEvent event) {
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+					long arg3) {
 				// TODO Auto-generated method stub
-				setContentView(R.layout.layout_on_experiment);
-				return false;
+				switch(arg2){
+				case 3:
+					doAbout();
+					break;
+				}
 			}
-		});
 		
-		// Handle list Experiment
-		TextView listText = (TextView) findViewById(R.id.listText);
-		listText.setOnTouchListener(new OnTouchListener() {
-			
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				// TODO Auto-generated method stub
-				setContentView(R.layout.layout_on_list);
-				return false;
-			}
-		});
-		
-		// Handle about
-		TextView aboutText = (TextView) findViewById(R.id.aboutText);
-		aboutText.setOnTouchListener(new OnTouchListener() {
-			
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				// TODO Auto-generated method stub
-				setContentView(R.layout.layout_on_about);
-				return false;
-			}
-		});
-		
-		// Handle exit Experiment
-		TextView exitText = (TextView) findViewById(R.id.exitText);
-		exitText.setOnTouchListener(new OnTouchListener() {
-			
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				// TODO Auto-generated method stub
-				finish();
-				System.exit(1);
-				return false;
-			}
 		});
 	}
 
+	private void initData() {
+		// TODO Auto-generated method stub
+		arrActions.add("New");
+		arrActions.add("List");
+		arrActions.add("Instruction");
+		arrActions.add("About");
+		arrActions.add("Quit");
+		lvActions = (ListView) findViewById(R.id.lvActions);
+		adapterAction = new ArrayAdapter<String>(getApplicationContext(),
+				android.R.layout.simple_list_item_1, arrActions);
+		lvActions.setAdapter(adapterAction);
+		// frameLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+	}
+	private void doAbout() {
+		
+		// TODO Auto-generated method stub
+		ListFragment fragment = new ListFragment();
+		FragmentManager fragmentManager = getFragmentManager();
+		fragmentManager.beginTransaction().replace(R.id.loContent,
+				fragment).commit();
+		//frameLayout.closeDrawer(null);
+
+	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
