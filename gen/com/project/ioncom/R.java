@@ -47,43 +47,39 @@ public final class R {
         public static final int small_back=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000b;
+        public static final int action_settings=0x7f090009;
         public static final int button1=0x7f090002;
         public static final int button2=0x7f090003;
-        public static final int container3=0x7f090005;
         public static final int ibStart=0x7f090004;
-        public static final int loContent=0x7f090001;
-        public static final int lvActions=0x7f090000;
-        public static final int spinner1=0x7f090007;
-        public static final int spinner2=0x7f090009;
-        public static final int spinner3=0x7f090008;
-        public static final int spinner4=0x7f09000a;
-        public static final int textmsg=0x7f090006;
+        public static final int pager=0x7f090001;
+        public static final int spinner1=0x7f090005;
+        public static final int spinner2=0x7f090007;
+        public static final int spinner3=0x7f090006;
+        public static final int spinner4=0x7f090008;
+        public static final int textView=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int chon=0x7f030001;
-        public static final int home=0x7f030002;
-        public static final int layout_on_about=0x7f030003;
-        public static final int layout_on_experiment=0x7f030004;
-        public static final int layout_on_instruction=0x7f030005;
-        public static final int layout_on_list=0x7f030006;
-        public static final int phanung=0x7f030007;
-        public static final int thinghiem=0x7f030008;
+        public static final int about_frag=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int chon=0x7f030002;
+        public static final int home=0x7f030003;
+        public static final int instruction_frag=0x7f030004;
+        public static final int list_frag=0x7f030005;
+        public static final int phanung=0x7f030006;
+        public static final int thinghiem=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int about=0x7f060007;
-        public static final int about_content=0x7f060009;
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int exit=0x7f060008;
-        public static final int instruction=0x7f060006;
-        public static final int list_experiment=0x7f060005;
-        public static final int new_experiment=0x7f060004;
-        public static final int phanUng=0x7f060003;
+        public static final int content_about=0x7f060008;
+        public static final int content_instruction=0x7f060007;
+        public static final int content_list=0x7f060006;
+        public static final int title_about=0x7f060005;
+        public static final int title_instruction=0x7f060004;
+        public static final int title_list=0x7f060003;
         public static final int well_come=0x7f060002;
     }
     public static final class style {

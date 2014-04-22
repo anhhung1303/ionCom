@@ -46,7 +46,7 @@ public class PhanUng {
 		final String splitSemiColonStr = " \\+ ";
 		String [] splitStr = xauChatVao.split(splitSemiColonStr);
 		ChatDAO dao = new ChatDAO();
-		for (String subStr : splitStr){
+		for (@SuppressWarnings("unused") String subStr : splitStr){
 			//TODO
 		}
 	}
