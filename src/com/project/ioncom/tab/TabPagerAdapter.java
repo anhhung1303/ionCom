@@ -15,7 +15,7 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
 		switch (i) {
         case 0:
             //Fragement for List Tab
-            return new List();
+            return new ShowExperimentNameFragment();
         case 1:
            //Fragment for Instruction Tab
             return new Instruction();

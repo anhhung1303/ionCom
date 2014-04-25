@@ -1,25 +1,19 @@
 package com.project.ioncom;
 
 import android.app.Application;
-import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import com.project.ioncom.database.DatabaseManager;
 
 public class IonComApplication extends Application{
-	private DatabaseManager mDBManager = null;
-
-	private DatabaseManager getDatabaseManager(){
-		if (mDBManager == null){
-			mDBManager = new DatabaseManager(getApplicationContext());
+	private String TAG = "IonComApplication";
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		//Load database
+		if (DatabaseManager.getInstance(getApplicationContext()) != null){
+			Log.d(TAG, "Load database from assets successfully!!!");
+			
 		}
-		return mDBManager;
-	}
-	
-	public SQLiteDatabase getReadableDatabase(){
-		return getDatabaseManager().getReadableDatabase();
-	}
-	
-	public SQLiteDatabase getWritableDatabase(){
-		return getDatabaseManager().getWritableDatabase();
 	}
 }
